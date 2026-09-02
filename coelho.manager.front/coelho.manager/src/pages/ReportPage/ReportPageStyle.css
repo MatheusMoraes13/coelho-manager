@@ -1,0 +1,128 @@
+body, html {
+  background: var(--bg-color, #1e1e1e) !important;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.report-page-container {
+  min-height: 100vh;
+  width: 100vw;
+  background: var(--bg-color, #1e1e1e) !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.report-form {
+  background: var(--container-bg, #23272b);
+  padding: 2.5rem 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  width: 100%;
+  max-width: 500px;
+}
+
+.report-form .MuiFormControl-root,
+.report-form input,
+.report-form .input-box {
+  width: 100% !important;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+.report-form > * {
+  width: 100%;
+}
+
+.report-title {
+  text-align: center !important;
+  font-weight: bold !important;
+  margin-bottom: 1rem !important;
+  color: var(--text-color, #fff);
+}
+
+.report-upload-btn {
+  height: 45px;
+  text-transform: none !important;
+  border-color: var(--border-color, #555) !important;
+  color: var(--text-color, #ccc) !important;
+}
+
+.report-upload-btn:hover {
+  border-color: var(--primary-color, #6a11cb) !important;
+  background: rgba(106, 17, 203, 0.1) !important;
+}
+
+.report-actions {
+  position: relative;
+  margin-top: 0.5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.report-submit-btn {
+  height: 45px;
+  background: var(--primary-color, #6a11cb) !important;
+  color: #fff !important;
+}
+
+.report-submit-btn:hover {
+  background: var(--primary-hover, #5a0fb1) !important;
+}
+
+.report-refresh-btn {
+  background: #444 !important;
+  color: #fff !important;
+}
+
+.report-refresh-btn:hover {
+  background: #666 !important;
+}
+
+.report-loading {
+  color: var(--primary-color, #6a11cb) !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -12px;
+  margin-left: -12px;
+}
+
+.report-alert {
+  margin-top: 1rem !important;
+}
+
+.styled-report-btn {
+  height: 45px;
+  background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%);
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.08rem;
+  letter-spacing: 0.5px;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(106,17,203,0.10);
+  transition: background 0.2s, box-shadow 0.2s, filter 0.2s;
+  cursor: pointer;
+}
+
+.styled-report-btn:disabled {
+  background: #444 !important;
+  color: #bbb !important;
+  cursor: not-allowed;
+  filter: grayscale(0.3);
+}
+
+.styled-report-btn:not(:disabled):hover {
+  background: linear-gradient(90deg, #2575fc 0%, #6a11cb 100%);
+  box-shadow: 0 4px 16px rgba(37,117,252,0.15);
+  filter: brightness(1.08);
+  cursor: pointer;
+}

@@ -1,0 +1,99 @@
+<table style="border-spacing: 0px; border-collapse: collapse; width: 100%;" border="0" width="100%" cellspacing="0" cellpadding="0">
+  <tbody>
+    <tr>
+      <td class="x_outer" style="font-family: Arial, sans-serif; min-width: 600px; border-collapse: collapse; background-color: #ebeff2; width: 100%;" valign="top">
+        <table id="x_boxing" class="x_m_boxing" style="border-spacing: 0; border-collapse: collapse; margin: 0 auto;" border="0" width="640" cellspacing="0" cellpadding="0" align="center">
+          <tbody>
+            <tr>
+              <td id="x_template-wrapper" class="x_mktoContainer x_boxedbackground" style="word-break: break-word; font-family: Arial, sans-serif; border-collapse: collapse;">
+
+                <!-- HEADER -->
+                <table id="x_hero" class="x_mktoModule x_m_hero" style="border-spacing: 0; border-collapse: collapse;" border="0" width="100%" cellspacing="0" cellpadding="0">
+                  <tbody>
+                    <tr>
+                      <td class="x_background" valign="top" bgcolor="#c93c3c" width="640" height="99px">
+                        <div style="text-align: center;">
+                          <table class="x_table600" style="border-spacing: 0; border-collapse: collapse; margin: 0 auto; width: 590px;" border="0" cellspacing="0" cellpadding="0" align="center">
+                            <tbody>
+                              <tr style="height: 150px;">
+                                <td>
+                                  <p style="text-align: center;">
+                                    <a style="text-decoration: none;" href="{URL_SITE_EMPRESA}" target="_blank" rel="noopener">
+                                      <img style="max-height: 100px;" src="{URL_LOGO_EMPRESA}" alt="Logo {NOME_EMPRESA}">
+                                    </a>
+                                  </p>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </div>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <!-- CONTEÚDO -->
+                <table id="x_free-text" class="x_mktoModule x_m_free-text" style="border-spacing: 0; border-collapse: collapse; color: #5d5d5d;" border="0" width="100%" cellspacing="0" cellpadding="0" align="center">
+                  <tbody>
+                    <tr>
+                      <td style="background-color: #ffffff; color: #5d5d5d;" valign="top">
+                        <table class="x_table600" style="border-spacing: 0; border-collapse: collapse; margin: 0 auto;" border="0" width="580" cellspacing="0" cellpadding="0" align="center">
+                          <tbody>
+                            <tr>
+                              <td class="x_primary-font x_text" style="font-family: Arial, sans-serif; font-size: 14px; color: #5d5d5d; line-height: 170%;">
+                                <h2 style="text-align: center;">{{MAIL_SUBJECT}}</h2>
+
+                                <p style="text-align: center; margin-bottom: 0; color: #5d5d5d;"><strong>Conteúdo</strong></p>
+
+                                <p>{{MAIL_CONTENT}}</p>
+
+                                <div style="margin-top: 30px; padding: 15px; border: 1px solid #ddd; margin-bottom: 15px; background-color: #fdfdfd; border-radius: 5px; color: #5d5d5d;">
+                                  <p>Atenciosamente, <br><b>{DEPARTAMENTO_EMPRESA}</b><br>{NOME_EMPRESA}.</p>
+                                  <img src="{URL_ASSINATURA_EMPRESA}" alt="Assinatura {NOME_EMPRESA}" width="410" height="71" style="display:block; margin:0 auto; border-radius:3px; border:0;">
+                                </div>
+
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <!-- FOOTER -->
+                <table id="x_footer" class="x_mktoModule x_m_footer" style="border-spacing: 0; border-collapse: collapse;" border="0" width="100%" cellspacing="0" cellpadding="0" align="center">
+                  <tbody>
+                    <tr>
+                      <td style="background-color: #c93c3c; padding: 20px; color: white; text-align: center; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px;">
+                        <p style="margin: 0; font-size: 16px;"><strong>{NOME_EMPRESA}</strong></p>
+                        <p style="margin: 5px 0; font-size: 12px;">
+                          <a style="color: white;" href="{URL_MAPS_EMPRESA}" target="_blank" rel="noopener">
+                            {ENDERECO_EMPRESA}
+                          </a>
+                        </p>
+                        <p>
+                          <a style="margin: 0 5px;" href="{URL_LINKEDIN_EMPRESA}" target="_blank" rel="noopener">
+                            <img src="{URL_ICONE_LINKEDIN}" alt="LinkedIn" width="30" height="30">
+                          </a>
+                          <a style="margin: 0 5px;" href="{URL_FACEBOOK_EMPRESA}" target="_blank" rel="noopener">
+                            <img src="{URL_ICONE_FACEBOOK}" alt="Facebook" width="30" height="30">
+                          </a>
+                          <a style="margin: 0 5px;" href="{URL_INSTAGRAM_EMPRESA}" target="_blank" rel="noopener">
+                            <img src="{URL_ICONE_INSTAGRAM}" alt="Instagram" width="30" height="30">
+                          </a>
+                        </p>
+                        <p style="color: #ccc; font-size: 12px;">© {ANO} <a style="color: #ccc;" href="{URL_SITE_EMPRESA}" target="_blank" rel="noopener">{NOME_EMPRESA} - Todos os direitos reservados.</a></p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>

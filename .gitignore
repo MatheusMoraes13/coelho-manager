@@ -1,0 +1,44 @@
+# Environment files (keep .env.example)
+.env
+.env.*
+!.env.example
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+**/coelho-manager.db
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# Build artifacts & Dependencies
+node_modules/
+target/
+dist/
+dist-ssr/
+build/
+*.class
+
+# Logs & Temporary files
+logs/
+*.log
+library/
+temp/
+temp-images/
+
+# Generated media
+*.pdf
+**/templates/isp-client-form/images/traffic.jpg
+**/templates/isp-client-form/images/traffic.png
+
